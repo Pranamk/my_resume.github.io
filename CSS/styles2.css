@@ -1,0 +1,150 @@
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    max-width: 700px;
+    background-color: rgb(8, 43, 119,0.9);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+
+  }
+  
+  .popup-content {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .blur-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: 999;
+  }
+
+  /* Rest of your CV styles */
+#openBtn {
+    border: none;
+    background-color: #406181 !important;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 190px;
+    height: 50px;
+    font-weight: 600;
+  }
+  
+#openBtn:hover {
+    background-color: rgba(42, 70, 160, 0.5) !important;
+    color: green;
+  }
+
+  #cover-letter {
+    padding: 20px;
+  }
+  
+  #cover-letter h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .intro p {
+    margin-bottom: 10px;
+  }
+  
+  .skills h3,
+  .experience h3,
+  .why-me h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .skills ul,
+  .experience ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .experience h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .experience p em {
+    font-style: italic;
+  }
+  
+  .why-me p {
+    margin-bottom: 10px;
+  }
+  
+  .closing p:last-child {
+    margin-bottom: 0;
+  }
+  
+
+
+
+
+
+
+
+
+  /* Width and Height of the scrollbar track */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Styling of the scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: #27507a;
+    border-radius: 5px;
+  }
+
+  /* Styling of the scrollbar track */
+  ::-webkit-scrollbar-track {
+    background-color: #06031d;
+    border-radius: 5px;
+  }
+  
+  /* Hover styles for the scrollbar thumb */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: green;
+  }
+  
+  /* Hover styles for the scrollbar track */
+  ::-webkit-scrollbar-track:hover {
+    background-color: lawngreen;
+  }
+  
+  #map {
+    height: 400px;
+    width: 100%;
+  }
+
+
+
+
+  

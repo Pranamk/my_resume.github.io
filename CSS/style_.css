@@ -1,0 +1,109 @@
+/* Add this CSS at the end of your existing CSS file or in a separate CSS file */
+
+/* Mobile Styles */
+
+/* Adjust the font size and padding for smaller screens */
+@media (max-width: 767px) {
+
+    #education p,
+    #certificates p,
+    #experience p {
+        font-size: 12px;
+    }
+
+    #education .card,
+    #certificates .card,
+    #experience .card {
+        padding: 2px;
+    }
+}
+
+/* Adjust the layout for smaller screens */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .image-card {
+        margin-bottom: 10px;
+    }
+
+    .header-content {
+        text-align: center;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footer-text {
+        font-size: 12px;
+    }
+
+    .header-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .header-button {
+        margin: 5px;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+
+    #dynamicMessage {
+      
+        color: green;
+        animation: fluctuate 2s infinite;
+    }
+
+    @keyframes fluctuate {
+        0% {
+            color: green;
+        }
+
+        50% {
+            color: lightgreen;
+        }
+
+        100% {
+            color: green;
+        }
+    }
+
+    /* Additional modifications for smaller screens */
+
+    /* Adjust the font size for header buttons */
+    .header-button {
+        font-size: 10px;
+    }
+
+    /* Adjust the margin and padding for content */
+    .content {
+        margin: 5px;
+        padding: 5px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    /* Styles for larger screens */
+    #dynamicMessage {
+        display: none;
+    }
+}

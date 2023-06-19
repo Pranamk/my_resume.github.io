@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online CV</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/styles2.css">
+    <link rel="stylesheet" href="CSS/style_.css">
+    
+    <style>
+        #education p,
+        #certificates p,
+        #experience p {
+            font-size: 14px;
+        }
+
+        #education .card,
+        #certificates .card,
+        #experience .card {
+            padding: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="d-flex">
+        <div class="image-card">
+            <img src="Image/6.jpg" alt="Profile Image" class="img-fluid">
+        </div>
+        <div class="header-content">
+            <h1>Pranam Karmakar</h1>
+            <p class="subtitle">Front-End Web Developer</p>
+
+        </div>
+        <div class="section">
+
+            <button id="openBtn">Open Cover Letter</button>
+            <div id="coverLetterPopup" class="popup">
+                <div class="popup-content">
+                    <span class="closeBtn">&times;</span>
+                    <section id="cover-letter">
+                        <h2 style="text-align: center;">Cover Letter</h2>
+
+                        <div class="intro">
+                            <p>Dear Hiring Manager,</p>
+                            <p>I am writing to express my strong interest in the web developer position at your company.
+                                With a passion for coding and a solid foundation in web development, I am confident in
+                                my ability to contribute to your team and deliver exceptional results.</p>
+                        </div>
+
+                        <div class="skills">
+                            <h3>Skills and Expertise</h3>
+                            <ul>
+                                <li>Proficient in HTML, CSS, and JavaScript</li>
+                                <li>Experience with front-end frameworks such as React and Material UI</li>
+                                <li>Familiarity with back-end technologies like Spring and Spring Boot (java framework )
+                                </li>
+                                <li>Strong understanding of responsive web design and cross-browser compatibility</li>
+                                <li>Knowledge of version control systems like Git</li>
+                                <li>Experience with database systems such as MySQL and MongoDB</li>
+                            </ul>
+                        </div>
+
+                        <div class="experience">
+                            <h3>Professional Experience</h3>
+                            <h4>Web Developer - ABC Company</h4>
+                            <p><em>June 2018 - Present</em></p>
+                            <ul>
+                                <li>Collaborated with a cross-functional team to develop and maintain company websites
+                                </li>
+                                <li>Implemented responsive design and optimized web performance for improved user
+                                    experience</li>
+                                <li>Developed custom web applications using JavaScript frameworks and libraries</li>
+                                <li>Integrated APIs and third-party services to enhance website functionality</li>
+                                <li>Performed code reviews and conducted testing to ensure high-quality deliverables
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="why-me">
+                            <h3>Why Choose Me?</h3>
+                            <p>I am a detail-oriented and self-motivated individual with a strong commitment to
+                                delivering clean and efficient code. I am constantly expanding my skills and staying
+                                up-to-date with the latest web development trends. I thrive in a collaborative
+                                environment and enjoy solving complex problems to create innovative solutions.</p>
+                        </div>
+
+                        <div class="closing">
+                            <p>Thank you for considering my application. I would love the opportunity to discuss how my
+                                skills and experience align with your company's needs. I have attached my resume for
+                                your review. Please feel free to contact me at your convenience.</p>
+                            <p>Sincerely,</p>
+                            <p>Pranam Karmakar</p>
+                        </div>
+                    </section>
+
+                </div>
+                <div>
+                    <a href="path/to/cv.pdf" download class="btn btn-primary">Download CV</a>
+                    <a href="https://pranamk.github.io" target="_blank" class="btn btn-primary">Portfolio</a>
+
+                </div>
+            </div>
+
+
+
+        </div>
+        <p id="dynamicMessage">Open this page on a Desktop Mode device to view the content.</p>
+    </header>
+    <main>
+
+        <div class="sidebar">
+            <!-- Sidebar content goes here -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Personal Details</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item">Name: Pranam Karmakar</li>
+                        <li class="list-group-item">D.O.B : 01 February </li>
+                        <li class="list-group-item">Recent location : <a
+                                href="https://www.google.com/maps/search/?api=1&query=Pune+Baner" target="_blank"
+                                class="map-link">Baner,Pune India <span class="comment">(Click here to google
+                                    map)</span></a> </li>
+                        <li class="list-group-item">Email: <a href="mailto:karmakarpranam@gmail.com"
+                                class="mailed-link">karmakarpranam@gmail.com <span class="comment">(Click here to send
+                                    an email)</span></a></li>
+                        <li class="list-group-item">Phone: <a href="tel:6204563089" class="phone-link">+91
+                                6204563089</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body" ">
+                    <h5 class=" card-title">Technical skills</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item">&#x2022; HTML</li>
+                        <li class="list-group-item">&#x2022; CSS</li>
+                        <li class="list-group-item">&#x2022; JavaScript</li>
+                        <li class="list-group-item">&#x2022; Bootstrap</li>
+                        <li class="list-group-item">&#x2022; React</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Soft skills</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item">&#x2022; Communication</li>
+                        <li class="list-group-item">&#x2022; Team work</li>
+                        <li class="list-group-item">&#x2022; Team management</li>
+                        <li class="list-group-item">&#x2022; Conflict management</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Languages</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item">&#x2022; Bengali</li>
+                        <li class="list-group-item">&#x2022; English</li>
+                        <li class="list-group-item">&#x2022; Hindi</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <!-- Main content goes here -->
+            <section id="about">
+                <h5>Profile summary:</h5>
+                <div class="summary-content">
+                    <div class="about-text">
+                        <p class="paragraph">I am a passionate front-end web developer with expertise in HTML, CSS, and
+                            JavaScript. I have
+                            experience creating responsive and user-friendly websites and love to bring creative designs
+                            to life through code.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Rest of the sections -->
+            <section id="experience">
+                <h5>Experience :</h5>
+                <div class="card" style="border: none;">
+
+                    <div class="card-header">
+                        <h7 class="card-title" style=" font-size: 15px;">Job Title</h7>
+                        <p class="card-subtitle">Company Name</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Job Description</p>
+                        <p class="card-text">Duration: Start Date - End Date</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="education">
+                <h5>Education : </h5>
+                <div class="education-item card" style="border: none;">
+                    <div class="card-body">
+                        <h6 class="card-title" style=" font-size: 15px;">Post-Graduate Diploma: Post Graduate
+                            Diploma in Advanced Computing (PGDAC)</h6>
+                        <p class="card-text education-details">College/University Name: Centre for Development of
+                            Advanced Computing (CDAC), Bangalore Karnataka</p>
+                        <p class="card-text education-details">Grade: A</p>
+                        <p class="card-text education-details">Year of Passing: March 2023</p>
+
+                        <p class="card-text education-details">Final Project in CDAC,Bangalore : Event Planner </p>
+                        <p class="card-text education-details">Project Link (github) : <a
+                                href="https://github.com/pranamkarmakar/Travelers" class="btn btn-primary"> CDAC
+                                Projects</a>
+
+                        </p>
+
+                    </div>
+                </div>
+                <div class="education-item card" style="border: none;">
+                    <div class="card-body">
+                        <h6 class="card-title" style=" font-size: 15px;">Degree: (BTech) Chemical Engineering</h6>
+                        <p class="card-text education-details">College/University Name: DIATM (Durgapur Institute of
+                            Advanced Technology and Management), Durgapur West Bengal</p>
+
+                        <p class="card-text education-details">Percentage: 60.9%</p>
+                        <p class="card-text education-details">Year of Passing: July 2016</p>
+                    </div>
+                </div>
+                <div class="education-item card" style="border: none;">
+                    <div class="card-body">
+                        <h6 class="card-title" style=" font-size: 15px;">12th Grade</h6>
+                        <p class="card-text education-details">School Name: D.A.V. Public School School in Bokaro
+                            Steel City, Jharkhand</p>
+                        <p class="card-text education-details">Board Name: CBSE</p>
+                        <p class="card-text education-details">Subject: Science with mathematics, biology, Painting,
+                            and English</p>
+                        <p class="card-text education-details">Percentage: 82%</p>
+                        <p class="card-text education-details">Year of Passing: March 2011</p>
+                    </div>
+                </div>
+                <div class="education-item card" style="border: none;">
+                    <div class="card-body">
+                        <h6 class="card-title" style=" font-size: 15px;">10th Grade</h6>
+                        <p class="card-text education-details">School Name: Kendriya Vidyalaya Gomoh Dhanbad,
+                            Jharkhand</p>
+                        <p class="card-text education-details">Board Name : CBSE</p>
+                        <p class="card-text education-details">Percentage: 73%</p>
+                        <p class="card-text education-details">Year of Passing: March 2009</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="certificates">
+                <h5>Certificates : </h5>
+                <div class="certificate-item card" style="border: none;">
+                    <div class="card-body">
+                        <h6 class="card-title" style=" font-size: 15px;">Core Java Certification</h6>
+                        <p class="card-text">Issuing Organization: Sunbeam Infotech Pvt Ltd</p>
+                        <p class="card-text">Location: Hinjawadi, Pune, Maharashtra</p>
+                        <p class="card-text">Date: May 2023</p>
+                    </div>
+                </div>
+            </section>
+
+
+
+        </div>
+    </main>
+    <footer>
+        <p class="footer-text">&copy; 2023 Pranam Karmakar. All rights reserved.</p>
+        <div class="header-buttons ml-auto">
+            <a href="https://www.linkedin.com/in/pranam-karmakar-b01943279/" target="_blank"
+                class="header-button btn btn-primary rounded-circle">LinkedIn</a>
+            <a href="https://www.naukri.com/mnjuser/profile?id=&altresid" target="_blank"
+                class="header-button btn btn-primary rounded-circle">Naukri</a>
+            <a href="https://www.facebook.com/pranam.karmakar.37/" target="_blank"
+                class="header-button btn btn-primary rounded-circle">Facebook</a>
+            <a href="https://wa.me/6204563089" target="_blank"
+                class="header-button btn btn-primary rounded-circle">WhatsApp</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>

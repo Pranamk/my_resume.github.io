@@ -1,0 +1,149 @@
+/* Custom Styles */
+
+body {
+    background-color: rgb(159, 176, 202);
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  header {
+    background-color: #002244;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .image-card {
+    width: 150px;
+    margin-right: 20px;
+  }
+  
+  .header-content {
+    flex: 1;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .subtitle {
+    margin-top: 10px;
+  }
+  
+  main {
+    padding: 20px;
+    display: flex;
+  }
+  
+  .content {
+    flex: 1;
+    margin-left: 20px;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #002244;
+    color: white;
+    padding: 60px;
+    text-align: center;
+  }
+  
+  .footer-text {
+    margin: 0;
+  }
+  
+  .footer-buttons .header-button {
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 40px;
+    font-size: 16px;
+    text-decoration: none;
+    align-items: center;
+    margin: 20px;
+    background-color: rgb(228, 43, 43);
+    color: skyblue;
+  }
+  
+  .footer-buttons .header-button:hover {
+    background-color: rgb(228, 43, 43);
+    color: skyblue;
+  }
+  
+  .sidebar {
+    background-color: rgb(204, 222, 230);
+    height: auto;
+    width: 350px;
+    padding: 20px;
+    float: left;
+  }
+  
+  .card {
+    border: 1px solid #002244;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: transparent;
+    padding-top: 5px;
+    margin: 4px;
+    
+  }
+  
+
+
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+
+  .education-details {
+    margin-bottom: 5px;
+  }
+
+  .list-group-item {
+    border: none;
+    background-color: transparent;
+    padding: 8px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  .list-group-item:hover {
+    background-color: rgba(0, 34, 68, 0.1);
+  } 
+  
+  .phone-link, .mailed-link , .map-link {
+    color: #002244;
+    text-decoration: none;
+  }
+  
+  .phone-link:hover, .mailed-link:hover , .map-link:hover{
+    text-decoration: underline;
+    color: rgb(10, 90, 6);
+  }
+  
+  .paragraph span:hover {
+    /* Add your hover styles for each word here */
+    /* Example styles */
+   font-weight: bold;
+    color: green;
+  }
+
+  .comment {
+    display: none;
+    position: absolute; /* Add position absolute */
+    top: 100%; /* Position the comment below the link */
+    left: 0;
+    background-color: rgb(112, 187, 144); /* Set background color for the comment */
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add box shadow for the comment */
+    z-index: 1; /* Set a higher z-index to make sure the comment appears on top */
+  }
+  
+  .mailed-link:hover .comment, .map-link:hover .comment{
+    display: block; /* Change display to block */
+  }
